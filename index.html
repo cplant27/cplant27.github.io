@@ -50,7 +50,6 @@
       }
       nav a:hover {
         text-decoration: underline;
-        font-weight: none;
       }
       main {
         padding: 20px;
@@ -168,8 +167,9 @@
             # Simple variable declaration
 
             make x with 1;
-            make y with "Make a variable with ANY type!"
+            make y with "Make variables with ANY type!"
             make z with ["even", "a", "list"]
+            constantly make C with "constants cannot be changed"
 
             # and even simpler incrementation
             
