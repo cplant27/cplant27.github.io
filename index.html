@@ -152,6 +152,8 @@
         <p>T.O.A.L. uses a simple and intuitive syntax that makes programming a breeze. Here are some examples:</p>
         <pre>
           <code>
+            # Automations make coding easy!
+
             automate greet(name) {
               print "Hello " + name + " !";
             }
@@ -161,15 +163,63 @@
         </pre>
         <pre>
           <code>
+            # Simple variable declaration
+
             make x with 1;
+            make y with "Make a variable with ANY type!"
+            make z with ["even", "a", "list"]
+
+            # and even simpler incrementation
             
             add 1 to x;
             subtract 1 from x;
             multiply x by 1;
             divide x by 1;
+
+            # no more of those confusing math symbols!
+            # simple plain english math
             
             change x to 5;
-            print x plus 5;
+            make a with 2 plus x minus 7;
+            make b with 2 to the 9 minus y divided by (x times x to the 0);
+
+          </code>
+        </pre>
+        <pre>
+          <code>
+            # While Loops
+            
+            make x with 0;
+
+            loop while x is less than 5 {
+                add 1 to x;
+                break;
+            }
+
+            print x;
+
+            # For Loops
+            
+            make this_list with [1, "hello", [1,2,3], []];
+
+            loop over element in this_list {
+                print element;
+            }
+          </code>
+        </pre>
+        <pre>
+          <code>
+            # Conditionals
+
+            make x with 5;
+
+            if x is 5 { 
+                print "x is 5";
+            }
+
+            if not {
+                print "x is not 5";
+            }
           </code>
         </pre>
       </section>
