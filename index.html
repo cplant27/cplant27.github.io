@@ -154,11 +154,10 @@
           <code>
             # Automations make coding easy!
 
-            automate greet(name) {
+            automate greeting(name) {
               print "Hello " + name + " !";
             }
-
-            greet("World");
+            greeting("World");
           </code>
         </pre>
         <pre>
@@ -180,8 +179,7 @@
             
             change x to 5;
             make a with 2 plus x minus 7;
-            make b with 2 to the 9 minus y divided by (x times x to the 0);
-
+            make b with 2 to the 9 minus (y divided by x) times x to the 0;
           </code>
         </pre>
         <pre>
@@ -189,18 +187,15 @@
             # While loops
             
             make x with 0;
-
             loop while x is less than 5 {
                 add 1 to x;
                 break;
             }
-
             print x;
 
             # For loops
             
             make this_list with [1, "hello", [1,2,3], []];
-
             loop over element in this_list {
                 print element;
             }
@@ -211,11 +206,9 @@
             # Even conditionals
 
             make x with 5;
-
             if x is 5 { 
                 print "x is 5";
             }
-
             if not {
                 print "x is not 5";
             }
