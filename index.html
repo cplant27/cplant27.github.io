@@ -157,8 +157,8 @@
           <code>
             # Automations make coding easy!
 
-            automate greeting(name) {
-              print "Hello " + name + " !";
+            automate greeting(word: name) -> none{
+              print "Hello ", name, " !";
             }
             greeting("World");
           </code>
